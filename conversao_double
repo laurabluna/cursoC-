@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    int a,b;
+    double c;
+    cin >> a >> b;
+    c = (double)a / (double)b;
+    std :: cout << a << "/" << b << "=" << c << std :: endl;
+    return 0;
+}
