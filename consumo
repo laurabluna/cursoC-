@@ -1,0 +1,21 @@
+#include <iostream>
+
+double custo(double preco,double consumo) {
+  return preco/consumo;
+
+  
+}
+  
+  int main() {
+    double pg, cg, pe, ce;
+    std :: cin >> pg >> cg;
+    std :: cin >> pe >> ce;
+    if (custo(pg,cg) > custo(pe,ce)) {
+      std :: cout <<"use etanol!/n";
+    } else {
+      std :: cout <<"use gasolina!/n";
+    }
+
+    return 0;
+    
+  }
