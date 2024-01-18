@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+    char letra;
+    std::cin >> letra;
+    std::cout << "Você digitou o caractere " << letra << std::endl;
+    return 0;
+}
