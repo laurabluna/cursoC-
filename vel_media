@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+    double distancia, tempo;
+    std::cin >> distancia >> tempo; // input 
+    double velocidade = distancia / tempo; //calculo
+    std::cout << velocidade << std::endl; //output
+    return 0;
+}
