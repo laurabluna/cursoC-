@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    int n = 0;
+    std::cin >> n;
+    if (n%2==0)
+        std::cout << "n é par" << std::endl;
+    else
+        std::cout << "n não é par" << std::endl;
+    return 0;
+}
